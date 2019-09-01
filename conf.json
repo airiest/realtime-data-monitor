@@ -1,0 +1,7 @@
+{
+    "sig1" :{"xrange":[-10, 0], "yrange":[-2, 6], "xtics":[2, 1], "ytics":[2, 1], "plot":"line", "color":0, "digit":2},
+    "sig2" :{"xrange":[-0.5, 0], "yrange":[-2, 8], "xtics":[0.5, 0.1], "ytics":[2, 2], "plot":"line-point", "color":1, "digit":3},
+    "sig3" :{"xrange":[-0.3, 0], "yrange":[0, 4], "xtics":[0.1, 0.1], "ytics":[1, 1], "plot":"point", "color":2, "digit":4},
+    "sig4" :{"layer":"sig1", "plot":"line", "color":4, "digit":5},
+    "sig5" :{"layer":"sig2", "plot":"line", "color":5, "digit":6}
+}
