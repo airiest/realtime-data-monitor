@@ -4,7 +4,7 @@ import threading
 import SignalData as sd
 
 from logging import getLogger
-logger = getLogger("RealtimeMonitor").getChild("TcpSocket")
+logger = getLogger("app").getChild("TcpSocket")
 
 RECV_BUF_SIZE = 2048    # set socket buffer size
 

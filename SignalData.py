@@ -3,7 +3,7 @@ import pandas as pd
 from threading import Lock
 
 from logging import getLogger
-logger = getLogger("RealtimeMonitor").getChild("SiganalData")
+logger = getLogger("app").getChild("SiganalData")
 
 DATA_BUF_SIZE = 1000   # set data buffer size
 

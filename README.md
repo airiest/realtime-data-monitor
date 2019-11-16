@@ -5,7 +5,7 @@ TCP Socketで受信したストリーミングデータをリアルタイムに�
 画面描画を高速化するためにPyQtGraphを利用しています。依存パッケージはソースコードを参照し準備してください。  
 
 ## 共通設定
-### RealtimeMonitor.py
+### app.py
 ホストPCのIPアドレスとPort番号を設定します。  
 
 ```python
@@ -92,7 +92,7 @@ $ python3 tcpsocket_send.py
 
 アプリケーションを起動します。
 ```bash
-$ python3 RealtimeMonitor.py
+$ python3 app.py
 ```
 
 ### 実行結果
