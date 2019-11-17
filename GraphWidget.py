@@ -86,6 +86,7 @@ class GraphWidget(pg.GraphicsLayoutWidget):
                     self.plot[sname].getAxis('left').setTickSpacing(major=self.jconf[sname]["ytics"][0], minor=self.jconf[sname]["ytics"][1])
                     self.plot[sname].getAxis("bottom").tickFont = tics_font
                     self.plot[sname].getAxis("left").tickFont = tics_font
+                    self.plot[sname].setMenuEnabled(False)
 
                     self.ts_item[sname] = pg.TextItem(color=(150, 150, 150))
                     self.ts_item[sname].setParentItem(self.plot[sname])
